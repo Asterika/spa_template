@@ -1,0 +1,82 @@
+.body {
+  position: relative;
+  font-size: 1.8rem;
+}
+
+.container {
+  margin-left: 25%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: white;
+  background-size: cover;
+}
+/*
+.navbar-nav {
+  display: inline-block;
+} */
+
+.navbar-default {
+  text-align: center;
+}
+
+#home, #tutoring, #editing, #about, #schedule, #connect {
+  padding-top: 50px;
+  background-color: white;
+  color: black;
+  height: 1000px;
+}
+
+
+.img-fullscreen {
+  object-fit: cover;
+}
+
+.logo {
+  background-color: ghostwhite;
+  height: 32%;
+  width: 32%;
+}
+
+/* HEIGHTS */
+.h60v {
+  height: 60vh;
+}
+
+/* OPACITY */
+.op9 {
+  opacity: 0.9;
+}
+.op5 {
+  opacity: 0.5;
+}
+
+/* PADDING */
+.pdng2 {
+  padding: 2%;
+}
+.pdng-l2 {
+  padding-left: 2%;
+}
+
+.m5 {
+  margin: 5%;
+}
+
+/* TEXT */
+.up-txt {
+  text-transform: uppercase;
+}
+
+/* WIDTHS */
+.w100v {
+  width: 100vw;
+}
