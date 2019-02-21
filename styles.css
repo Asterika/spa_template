@@ -10,38 +10,19 @@ font-family: 'Bilbo', cursive;
 font-family: 'Shadows Into Light', cursive;
 font-family: 'Vast Shadow', cursive; */
 
+/* GENERAL STYLES */
 .body {
   position: relative;
   margin: auto 0;
 }
-/* .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-} */
-
-#element-with-background-image {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('https://ibb.co/WzCZztf');
-}
-
-
 .center {
   align: center;
   text-align: center;
   align-content: center;
 }
-
 .container {
   margin-left: 18%;
 }
-
-.mint {
-  background-color: #94ecc5;
-}
-
 .footer {
   position: static;
   left: 0;
@@ -49,7 +30,6 @@ font-family: 'Vast Shadow', cursive; */
   width: 100%;
   text-align: center;
 }
-
 hr {
   width: 100vw;
 }
@@ -67,6 +47,12 @@ hr {
   text-align: center;
 }
 
+/* IDs */
+#element-with-background-image {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('https://ibb.co/WzCZztf');
+}
 #home, #tutoring, #editing, #about, #schedule, #connect {
   padding-top: 50px;
   background-color: white;
@@ -74,29 +60,12 @@ hr {
   height: 1000px;
 }
 
-/* .main-header::after {
-  display: block;
-  position: relative;
-  background-image: linear-gradient(to bottom, transparent 0%, white 100%);
-  margin-top: -150px;
-  height: 150px;
-  width: 100%;
-  background-image: url("./images/start.png");
-} */
-
-
+/* IMAGES */
 .img-fullscreen {
   object-fit: cover;
   background-image: linear-gradient(to bottom, transparent 0%, white 100%);
   box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8);
 }
-
-.img-wrapper {
-  position: relative;
-  width: 100%;
-  font-size: 0;
-}
-
 .img-overlay {
   position: absolute;
   top: 50;
@@ -105,9 +74,11 @@ hr {
   height: 100vh;
   background-color: rgba(30, 30, 30, 0.75);
 }
-
-/* .img-wrapper img {width:100%;} */
-
+.img-wrapper {
+  position: relative;
+  width: 100%;
+  font-size: 0;
+}
 .logo {
   background-color: ghostwhite;
   height: 32%;
@@ -118,18 +89,18 @@ hr {
 .f14 {
   font-size: 1.4rem;
 }
-.f15 {
+/* .f15 {
   font-size: 1.5rem;
-}
-.f18 {
+} */
+/* .f18 {
   font-size: 1.8rem;
-}
-.f2 {
+} */
+/* .f2 {
   font-size: 2rem;
-}
+} */
 
 /* HEIGHTS */
-.h60v {
+/* .h60v {
   height: 60vh;
 }
 .h70v {
@@ -140,24 +111,10 @@ hr {
 }
 .h80p {
   height: 80%;
-}
+} */
 .h100v {
   height: 100vh;
 }
-
-/* HOVER */
-
-/* IMAGES */
-/* .tinted-image {
-  background-image: */
-    /* top, transparent red */
-    /* linear-gradient(
-      rgba(255, 0, 0, 0.45),
-      rgba(255, 0, 0, 0.45)
-    ) */
-    /* your image */
-    /* url("images/start.png");
-} */
 
 /* MARGINS */
 .mtb2 {
@@ -171,21 +128,21 @@ hr {
 .ml1p {
   margin-left: -1%;
 }
-.ml15p {
+/* .ml15p {
   margin-left: -1.5%;
-}
+} */
 .ml175p {
   margin-left: -1.75%;
 }
-.ml2p {
+/* .ml2p {
   margin-left: -2%;
-}
+} */
 .ml25p {
   margin-left: -2.5%;
 }
-.ml3p {
+/* .ml3p {
   margin-left: -3%;
-}
+} */
 .ml35p {
   margin-left: -3.5%;
 }
@@ -195,9 +152,9 @@ hr {
 .mt9n {
   margin-top: -9%
 }
-.mt15 {
+/* .mt15 {
   margin-top: -15%;
-}
+} */
 .mt5p {
   margin-top: 5%;
 }
@@ -212,32 +169,27 @@ hr {
 .op5 {
   opacity: 0.5;
 }
-/* .layer {
-  background-color: rgba(248, 247, 216, 0.7);
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-} */
 
 /* PADDING */
 .pdng2 {
   padding: 2%;
+}
+.pdngl2{
+  padding-left: 2%;
 }
 .pdng-l2 {
   padding-left: 2%;
 }
 
 /* POSITION */
-.abs {
+/* .abs {
   position: absolute;
-}
+} */
 
 /* SHADOW */
-.shadow {
+/* .shadow {
  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
-}
+} */
 
 /* TEXT */
 .up-txt {
@@ -254,27 +206,27 @@ hr {
 .w102p {
   width: 102%;
 }
-.w103p {
+/* .w103p {
   width: 103%;
-}
+} */
 .w1035p {
   width: 103.5%;
 }
-.w104p {
+/* .w104p {
   width: 104%;
-}
+} */
 .w105p {
   width: 105%;
 }
 .w1055p {
   width: 105.5%;
 }
-.w106p {
+/* .w106p {
   width: 106%;
-}
+} */
 .w107p {
   width: 107%;
 }
-.w108p {
+/* .w108p {
   width: 108%;
-}
+} */
