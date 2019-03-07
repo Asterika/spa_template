@@ -72,7 +72,7 @@ hr {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(30, 30, 30, 0.75);
+  background-color: rgba(30, 30, 30, 0.35);
 }
 .img-wrapper {
   position: relative;
